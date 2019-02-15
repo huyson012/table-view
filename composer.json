@@ -1,0 +1,35 @@
+{
+    "name": "huyson012/table-view",
+    "description": "An API-based table view for Laravel. Based on Vue.js and Element-UI.",
+    "keywords": [
+        "laravel",
+        "datatable"
+    ],
+    "homepage": "https://github.com/huyson012/table-view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SonHH",
+            "email": "hahuyson@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.2",
+        "prettus/l5-repository": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "orchestra/testbench": "~3.0",
+        "satooshi/php-coveralls": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lykegenes\\TableView\\": "src"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
